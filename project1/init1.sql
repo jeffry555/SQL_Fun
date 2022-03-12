@@ -1,5 +1,11 @@
 
-insert into hotels ( hotel_id, name )
+use hotel_db;
+
+DELETE FROM total_costs;
+DELETE FROM costs;
+DELETE FROM hotels;
+
+INSERT INTO hotels ( hotel_id, name )
     values
     ( 1, "Starlight Hotel" ),
     ( 2, "Firelight Hotel" ),
@@ -8,7 +14,7 @@ insert into hotels ( hotel_id, name )
     ( 5, "Blacklight Hotel" );
     
 
-insert into costs ( hotel_id, night, avaliable, cost  )
+INSERT INTO costs ( hotel_id, night, avaliable, cost  )
     values
     ( 1, "2022-01-01", 1, 210.00 ),
     ( 1, "2022-01-02", 1, 180.00 ),
