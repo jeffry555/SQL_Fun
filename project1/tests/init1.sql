@@ -14,7 +14,7 @@ INSERT INTO hotels ( hotel_id, name )
     ( 5, "Blacklight Hotel" );
     
 
-INSERT INTO costs ( hotel_id, night, avaliable, cost  )
+INSERT INTO costs ( hotel_id, night, available, cost  )
     values
     ( 1, "2022-01-01", 1, 210.00 ),
     ( 1, "2022-01-02", 1, 180.00 ),

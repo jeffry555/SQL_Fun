@@ -18,7 +18,7 @@ create table costs (
     hotel_id    int not null,
     night       date not null,
     cost        decimal(12,2) not null,
-    avaliable   TINYINT(1) not null,
+    available   TINYINT(1) not null,
     PRIMARY KEY (hotel_id, night)
     );
     
