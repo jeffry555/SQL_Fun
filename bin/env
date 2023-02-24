@@ -1,0 +1,3 @@
+DB_USER="${1:-${DBXP_USER:-fungi}}"
+DB_PASSWD="${2:-${DBXP_PASSWD:-mushroom}}"
+DB_NAME="${3:-${DBXP_NAME:-toadstool}}"
