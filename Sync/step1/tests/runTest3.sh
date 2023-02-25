@@ -6,5 +6,7 @@ ${DBXP_BIN}/runSql.sh < init3.sql
 
 ${DBXP_BIN}/runSql.sh < ../createSp.sql
 
-${DBXP_BIN}/runSql.sh < test3.sql | tee test3.out
+${DBXP_BIN}/runSql.sh < test3.sql | tee results/test3.out
+
+${DBXP_BIN}/checkResults.sh 3 
 

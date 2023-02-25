@@ -1,0 +1,7 @@
+Results
+1|Total CPU High|cpu_percent|>=|0.8700|1|Total CPU higher than normal|0
+2|Total CPU Low|cpu_percent|<|0.0250|4|Total CPU higher than normal|0
+3|IO High|disk_io|>=|0.7000|2|Disk IO higher than normal|0
+4|Free Mem Low|mem_free|<|256.0000|2|free memory lower than normal|0
+7|Cache Mem Low|mem_cached|<|512.0000|3|cached memory lower than normal|0
+8|System CPU HIGH|sys_cpu_percent|>=|0.3000|3|system CPU higher than normal|0
