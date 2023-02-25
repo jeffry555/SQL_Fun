@@ -12,7 +12,7 @@ CREATE TABLE alarm_def (
     threshold   decimal(14,4) not null,
     severity    int not null,
     description varchar(256) null,
-    disabled    bool null
+    disabled    boolean null
     );
 
 DROP TABLE IF EXISTS alarm_def_local;
@@ -25,9 +25,9 @@ CREATE TABLE alarm_def_local (
     threshold            decimal(14,4) not null,
     severity             int not null,
     description          varchar(256) null,
-    disabled             bool null,
-    threshold_override   decimal(14,4) not null
-    disabled_override    bool null
+    disabled             boolean null,
+    threshold_override   decimal(14,4) null,
+    disabled_override    boolean null
     );
 
     

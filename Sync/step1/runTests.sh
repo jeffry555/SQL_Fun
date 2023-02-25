@@ -1,5 +1,7 @@
 #!/bin/sh
 
+./createSchema.sh
+
 
 cd tests
 

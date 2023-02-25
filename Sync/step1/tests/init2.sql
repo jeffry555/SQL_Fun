@@ -4,7 +4,7 @@ use net_watcher;
 DELETE FROM alarm_def;
 DELETE FROM alarm_def_local;
 
-INSERT INTO alarm_def ( alarm_id, name, mib_val, operator, threshold, severity, decsription, disabled )
+INSERT INTO alarm_def ( alarm_id, name, mib_val, operator, threshold, description, severity, disabled )
     VALUES
     ( 1, 'CPU High', 'cpu_percent', '>=', 0.85, 'CPU higher than normal', 1, false ),
     ( 2, 'CPU Low', 'cpu_percent', '<', 0.02, 'CPU higher than normal', 3, false ),
@@ -14,7 +14,7 @@ INSERT INTO alarm_def ( alarm_id, name, mib_val, operator, threshold, severity, 
     ( 8, 'System CPU HIGH', 'sys_cpu_percent', '>=', .30, 'system CPU higher than normal', 3, false );
     
 
-INSERT INTO alarm_def_local ( alarm_id, name, mib_val, operator, threshold, severity, decsription, disabled, threshold_override, disabled_override )
+INSERT INTO alarm_def_local ( alarm_id, name, mib_val, operator, threshold, description, severity, disabled, threshold_override, disabled_override )
     VALUES
     ( 1, 'CPU High', 'cpu_percent', '>=', 0.85, 'CPU higher than normal', 1, false, 0.9, false ),
     ( 2, 'CPU Low', 'cpu_percent', '<', 0.02, 'CPU higher than normal', 3, false, null, null ),

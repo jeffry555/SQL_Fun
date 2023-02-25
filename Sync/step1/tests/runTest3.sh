@@ -2,7 +2,7 @@
 
 echo Running test for update
 
-${DBXP_BIN}/runSql.sh < init1.sql
+${DBXP_BIN}/runSql.sh < init3.sql
 
 ${DBXP_BIN}/runSql.sh < ../createSp.sql
 

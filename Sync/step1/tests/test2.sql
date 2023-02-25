@@ -1,6 +1,6 @@
 
-use hotel_db;
+use net_watcher;
 
-call find_lowest_prices( '2022-01-02', '2022-01-05', 2 );
+call sync_tables( );
 
     

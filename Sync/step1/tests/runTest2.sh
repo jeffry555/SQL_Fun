@@ -2,7 +2,7 @@
 
 echo Running test for delete
 
-${DBXP_BIN}/runSql.sh < init1.sql
+${DBXP_BIN}/runSql.sh < init2.sql
 
 ${DBXP_BIN}/runSql.sh < ../createSp.sql
 
