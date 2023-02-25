@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo Running test for delete
+echo Running test for insert
 
 ${DBXP_BIN}/runSql.sh < init2.sql
 
