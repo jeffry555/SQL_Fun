@@ -1,0 +1,5 @@
+Results
+1|CPU High|cpu_percent|>=|0.8500|1|CPU higher than normal|0|0.9000|0
+2|CPU Low|cpu_percent|<|0.0200|3|CPU higher than normal|0|NULL|NULL
+3|IO High|disk_io|>=|0.7000|2|Disk IO highr than normal|0|0.8000|NULL
+4|Free Mem Low|mem_free|<|512.0000|2|free memory lower than normal|0|NULL|1

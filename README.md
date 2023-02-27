@@ -11,3 +11,7 @@ To install MariaDB/MySQL please use the urls:
 You will also want to use an IDE such as Oracle SQL developer or DBeaver.
 
 For each project there will be a database create schema script and an init script for each test set.
+
+The scripts and tests should be run using bash. You should only need to set one environment variable DBXP_BIN to the bin of this repo.
+
+export DBXP_BIN=<path>/SQL_Fun/bin
