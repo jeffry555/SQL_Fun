@@ -1,5 +1,5 @@
 
-use net_watcher;
+use dbxp_net_watcher;
 
 call sync_tables( );
 

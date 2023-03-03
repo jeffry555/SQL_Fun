@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS net_watcher;
+CREATE DATABASE IF NOT EXISTS dbxp_net_watcher;
 
-use net_watcher;
+use dbxp_net_watcher;
 
 DROP TABLE IF EXISTS alarm_def;
 
