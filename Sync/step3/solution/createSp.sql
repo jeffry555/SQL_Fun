@@ -1,10 +1,10 @@
 
-use net_watcher;
+use dbxp_net_watcher;
 
-DROP PROCEDURE IF EXISTS sync_tables;
+DROP PROCEDURE IF EXISTS sync_table;
 
 DELIMITER //
-CREATE PROCEDURE sync_tables()
+CREATE PROCEDURE sync_table()
 BEGIN
 
 DELETE

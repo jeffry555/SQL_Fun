@@ -11,7 +11,7 @@ The goal of this step is to write a stored procedure that will synchronize a des
 
 You need to sync the alarm_def_local table with the alarm_def table. 
 
-For this task you will create a stored procedure called sync_tables which will sync the alarm_def_local table with the alarm_def table. The tables should have the same primary keys (alarm_id) and some number of common columns(name, mib_val, operator, threshold, severity, description, disabled). The keys and common columns will have the same data type.
+For this task you will create a stored procedure called sync_table which will sync the alarm_def_local table with the alarm_def table. The tables should have the same primary keys (alarm_id) and some number of common columns(name, mib_val, operator, threshold, severity, description, disabled). The keys and common columns will have the same data type.
 
 
 Before the store procedure is run the source and destination tables may have different data. Afterthe stored procedure is run, the following will be true:
@@ -24,7 +24,7 @@ For this step you should:
 
 In bash make sure you set the DBXP_BIN
 
-export DBXP_BIN=<path>/SQL_Fun/bin
+export DBXP_BIN=<path>/bin
 
 update the stored procedure in createSp.sql
 

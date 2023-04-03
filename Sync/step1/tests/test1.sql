@@ -1,7 +1,7 @@
 
 use dbxp_net_watcher;
 
-call sync_tables( );
+call sync_table( );
 
 
 select concat( alarm_id, '|', name, '|', mib_val, '|', operator,'|', threshold, '|', severity, '|',

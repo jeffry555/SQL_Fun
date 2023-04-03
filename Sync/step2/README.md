@@ -12,7 +12,7 @@ Remember a primary key is what data uniquely identifies a row in a table.
 
 You need to sync the alarm_def_level_local table with the alarm_def_level table. 
 
-For this task you will create a stored procedure called sync_tables which will sync the alarm_def_local table with the alarm_def_level table. The tables should have the same primary keys (alarm_id, level) and some number of common columns(threshold, severity). The keys and common columns will have the same data type.
+For this task you will create a stored procedure called sync_table which will sync the alarm_def_local table with the alarm_def_level table. The tables should have the same primary keys (alarm_id, level) and some number of common columns(threshold, severity). The keys and common columns will have the same data type.
 
 Before the store procedure is run the source and destination tables may have different data. Afterthe stored procedure is run, the following will be true:
 - Any rows in the source table that were not in the destination table are added to the destination table.
@@ -24,7 +24,7 @@ For this step you should:
 
 In bash make sure you set the DBXP_BIN
 
-export DBXP_BIN=<path>/SQL_Fun/bin
+export DBXP_BIN=<path>/bin
 
 update the stored procedure in createSp.sql
 

@@ -7,7 +7,7 @@ This task involves synchronizing data between tables, which involves making a de
 The goal is to understand how the insert, update and delete commands can process multiple rows of data. In addition we want to understand, meta data, primary keys and foreign key constraints.
 
 
-For this task you will create a stored procedure called sync_tables which will sync a destination table with a source table. The tables should have the same primary keys and some number of common columns. The keys and common columns will have the same data type.
+For this task you will create a stored procedure called sync_table which will sync a destination table with a source table. The tables should have the same primary keys and some number of common columns. The keys and common columns will have the same data type.
 
 Before the store procedure is run the source and destination tables may have different data. Afterthe stored procedure is run, the following will be true:
 - Any rows in the source table that were not in the destination table are added to the destination table.
